@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego para mi novia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Juego para mi novia</h1>
+        <p id="modo"></p>
+        <p id="animalDisplay"></p>
+        <button id="revealButton" onclick="revealAnimal()">Reveal</button>
+        <button id="refreshButton" onclick="refreshGame()">Refresh</button>
+        <input type="checkbox" id="toggle" onchange="toggleAnimals()" visibility=false>
+		<label for="toggle" class="toggle-btn"></label>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
